@@ -1,0 +1,167 @@
+.container {
+  height: 960px;
+  width: 1440px;
+  bottom: 0px;
+  background-image:url(../../assets/images/paper_background.jpg);
+}
+
+#navbar {
+  position: relative;
+  height: 90px;
+  top: 0px;
+  background: white;
+  border-bottom-style: solid;
+  border-bottom-color: darkgray;
+  border-width: medium;
+}
+
+#navbar ul {
+  margin-right: 10%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu {
+  position: relative;
+  top: 25%;
+}
+
+.menu a {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 20px;
+  color: darkgray;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background: white;
+  text-decoration: none;
+}
+
+li h3 {
+  display: block;
+  padding: 8px;
+  background: white;
+  font-size: 20px;
+  color: gray;
+  opacity: 0.1;
+}
+
+#navbar ul h3 {
+  color: lightgray;
+  font-size: 25px;
+  opacity: 0.3
+}
+
+.name {
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  margin-left: 10%;
+  background: #4eaaa4;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding: 20px;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+.left_box {
+  position: relative;
+  width: 650px;
+  background: white;
+  border: solid;
+  border-width: thin;
+  border-color: darkgray;
+  margin-top: 40px;
+  margin-left: 10%;
+  padding: 10px 10px 10px 10px;
+}
+
+h2 {
+  color: #4eaaa4;
+  font-size: 35px;
+  padding: 10px;
+}
+
+.right_box h2 {
+  font-size: 25px;
+}
+h3 {
+  color: lightgray;
+  font-weight: 800;
+  padding: 10px;
+}
+
+img.resize {
+  height: 25%;
+  width: 25%;
+  float: left;
+  padding-right: 2%;
+  padding-bottom: 1%;
+  background-size: cover;
+}
+
+.right_box {
+  text-align: center;
+  /*width: 270px;*/
+  background: white;
+  border: solid;
+  border-width: thin;
+  border-color: darkgray;
+  float: right;
+  margin-top: -32.5%;
+  margin-right: 10%;
+  padding: 10px;
+}
+
+p {
+  padding: 10px;
+  color:   #78797c
+}
+
+p.para_tweak {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  line-height: 1.8;
+}
+
+.icons img{
+  width: 50%;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#footer {
+  /*position: fixed;*/
+  width: 97.75%;
+  bottom: 0;
+  right: 0px;
+  left: 0;
+  margin-top: 274px;
+  padding: 1rem;
+  font-size: 12px;
+  text-align: center;
+  color: silver;
+  line-height: 60px;
+  border-top-style: solid;
+  border-width: 10px;
+  border-top-color: #4eaaa4;
+  background-color: #666666;
+}
