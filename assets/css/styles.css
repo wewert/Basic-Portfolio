@@ -132,6 +132,10 @@ img.resize {
   padding: 10px;
 }
 
+.icons li a{
+  padding: 0;
+}
+
 p {
   padding: 10px;
   color:   #78797c
