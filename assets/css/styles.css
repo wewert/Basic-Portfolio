@@ -118,11 +118,45 @@ img.resize {
   background-size: cover;
 }
 
+.contact_left_box {
+  position: relative;
+  width: 650px;
+  background: white;
+  border: solid;
+  border-width: thin;
+  border-color: darkgray;
+  margin-top: 40px;
+  margin-left: 10%;
+  padding: 10px 10px 10px 10px;
+}
+.contact_left_box h1 form {
+  background: white;
+  margin-top: 10px;
+  margin-left: 5%;
+  padding: 10px 10px 10px 10px;
+}
+
+.contact_left_box input {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 80%;
+}
+
+.contact_left_box textarea {
+  padding-right: 78%;
+  padding-bottom: 30%;
+}
+
+.contact_left_box h1 {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: darkgray;
+  font-size: 20px;
+}
+
 .right_box {
   position: fixed;
   left: 60%;
   text-align: center;
-  /*width: 270px;*/
   background: white;
   border: solid;
   border-width: thin;
@@ -162,7 +196,6 @@ p.para_tweak {
   bottom: 0;
   right: 0px;
   left: 0;
-  /*margin-top: 274px;*/
   padding: 1rem;
   font-size: 12px;
   text-align: center;
