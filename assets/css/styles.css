@@ -265,6 +265,17 @@ p.para_tweak {
   width: 50%;
 }
 
+.portfolio_left_box {
+  background: white;
+  margin: 5px 10px;
+  width: 50%;
+  height: 60%;
+}
+
+/*.portfolio_box {
+  padding: 20px;
+}*/
+
 .clearfix::after {
   content: "";
   display: block;
