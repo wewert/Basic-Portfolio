@@ -146,6 +146,7 @@ img.resize {
 
 .contact_left_box {
   padding: 10px;
+  left: -30px;
 }
 
 .contact_left_box h2 {
@@ -156,7 +157,7 @@ img.resize {
 .contact_left_box input {
   padding-top: 4px;
   padding-bottom: 5px;
-  padding-left: 10px;
+  padding-left: 25px;
   width: 640px;
   font-size: 18px;
 }
